@@ -7,7 +7,7 @@
         .container-top {
             display: flex;
             justify-content: space-around;
-            background-image: linear-gradient(rgba(96, 98, 99, 0.589), rgba(68, 70, 71, 0.473)), url(/starter-code/utils/images/hero-bg-desktop.jpg);
+            background-image: linear-gradient(rgba(96, 98, 99, 0.589), rgba(68, 70, 71, 0.473)), url(starter-code/utils/images/hero-bg-desktop.jpg);
             background-position: center;
             background-size: cover;
             height: 50vh;
@@ -100,7 +100,7 @@
             padding-top: 100px;
             padding-bottom: 30px;
             padding-left: 45%;
-            background-image: url(/starter-code/utils/patterns/pattern-curve-bottom-right.svg);
+            background-image: url(starter-code/utils/patterns/pattern-curve-bottom-right.svg);
             background-color: rgb(230, 223, 230);
         }
         

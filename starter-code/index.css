@@ -7,7 +7,7 @@
         .container-top {
             display: flex;
             justify-content: space-around;
-            background-image: linear-gradient(rgba(96, 98, 99, 0.589), rgba(68, 70, 71, 0.473)), url(/starter-code/utils/images/hero-bg-desktop.jpg);
+            background-image: linear-gradient(rgba(96, 98, 99, 0.589), rgba(68, 70, 71, 0.473)), url(../starter-code/utils/images/hero-bg-desktop.jpg);
             background-position: center;
             background-size: cover;
             height: 50vh;
@@ -19,7 +19,6 @@
             color: white;
             margin-left: -200px;
             font-size: 20px;
-            font-weight: 100px;
         }
         
         .h1-container1 {

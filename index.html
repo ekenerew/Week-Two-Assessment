@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
 </head>
 
 <body>
@@ -38,8 +39,8 @@
                 <br>
                 <label>
         Pick a date
-        <select id="day" name="day">
-            <option>day</option>
+        <select id="day" name="DD" placeholder="DD">
+            <option>DD</option>
             <option value="01">01</option>
             <option value="02">02</option>
             <option value="03">03</option>
@@ -72,8 +73,8 @@
             <option value="30">30</option>
             <option value="31">31</option>
         </select>
-        <select id="month" name="month">
-            <option>month</option>
+        <select id="month" name="MM">
+            <option>MM</option>
             <option value="01">January</option>
             <option value="02">February</option>
             <option value="03">March</option>
@@ -87,8 +88,8 @@
             <option value="11">November</option>
             <option value="12">December</option>
         </select>
-        <select id="year" name="year">
-            <option>year</option>
+        <select id="year" name="YYYY">
+            <option>YYYY</option>
             <option value="1940">1940</option>
             <option value="1941">1941</option>
             <option value="1942">1942</option>
@@ -195,7 +196,7 @@
                     <button class="increment">+</button>
                 </div>
                 <br>
-                <button class="button-2">MARK RESERVATION</button>
+                <button class="button-2" onclick="Swal.fire()">MARK RESERVATION</button>
             </form>
         </div>
     </Section>
@@ -214,6 +215,7 @@
         </div>
     </section>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
 </body>
 
 </html>

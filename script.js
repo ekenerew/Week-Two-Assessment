@@ -6,7 +6,8 @@ function increment() {
     counter.innerText = count
 
 }
-funtion decrement() {
+
+function decrement() {
     return count--;
     counter.innerText = count
 }

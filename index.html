@@ -20,6 +20,7 @@
         <div class="container-content-1">
             <div class="container-dine">
                 <h2>dine</h2>
+
             </div>
             <div class="container-top-content">
                 <h1 class="h1-container1">Reservations</h1>
@@ -188,34 +189,35 @@
         <option>AM</option>
         <option>PM</option>
     </select>
-                <br>
-                <br>
-                <div class="increment-decrement">
-                    <button class="decrement">-</button>
-                    <label><b><span></span> people</b></label>
-                    <button class="increment">+</button>
-                </div>
-                <br>
-                <button class="button-2" onclick="Swal.fire()">MARK RESERVATION</button>
-            </form>
+                <form> <br>
+                    <br>
+                    <div class="increment-decrement">
+                        <input type="button" class="decrement-button" onclick="decrementValue() " value="- " />
+                        <input type="text " id="number" value="0 " /><span><b>People</b></span>
+                        <input type="button" class="increment-button" onclick="incrementValue() " value="+ " />
+
+                    </div>
+                    <br>
+                    <button class="button-2 " id="first">MARK RESERVATION</button>
+                </form>
         </div>
     </Section>
 
-    <section class="middle-container">
-        <div class="container-content-2">
-            <img src="starter-code/utils/patterns/pattern-lines.svg" alt="pattern-lines">
+    <section class="middle-container ">
+        <div class="container-content-2 ">
+            <img src="starter-code/utils/patterns/pattern-lines.svg " alt="pattern-lines ">
         </div>
     </section>
 
-    <section class="bottom-container">
-        <div class="container-content-3">
+    <section class="bottom-container ">
+        <div class="container-content-3 ">
             <h2>dine</h2>
             <p>MARTHWAITE, SEDBERGH <br> CUMBIA <br> +00441234567</p>
             <p>OPEN TIMES <br> MON - FRI: 09:00AM - 10:00PM <br> SAT - SUN: 09:00AM - 11:30PM</p>
         </div>
     </section>
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js "></script>
 </body>
 
 </html>

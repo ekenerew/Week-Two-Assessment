@@ -1,13 +1,27 @@
-let counter = document.getElementById("")
-let count = 0;
+document.getElementById("first").addEventListener('click', function() {
+    Swal.fire({
+        title: "Good job! Your Reservation is Successful!",
+        text: "Thanks For Choosing Dine!",
+        icon: "success",
+        button: "Thank you"
 
-function increment() {
-    return count++;
-    counter.innerText = count
 
+    });
+});
+
+
+
+
+function incrementValue() {
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
 }
 
-function decrement() {
-    return count--;
-    counter.innerText = count
+function decrementValue() {
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value--;
+    document.getElementById('number').value = value;
 }
